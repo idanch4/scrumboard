@@ -1,0 +1,51 @@
+html
+{
+    font-size: 1em;
+    color:white;
+}
+
+.card
+{
+    width: 90%;
+    left:5%;
+    background-color: rgb(220, 220, 230);
+}
+
+.card .title
+{
+    color: rgb(60, 80, 80);
+}
+
+.card .description
+{
+    color: rgb(20, 30, 20);
+    font-size: 0.8em;
+}
+
+.card .title , .card .description
+{
+    padding:3px 6px 3px 10px;
+}
+
+.scrumboard-list
+{
+    margin: 5px;
+    padding:10px;
+    background-color: rgb(0, 80, 160);
+    border: 2px solid white;
+    display: inline-block;
+    float:left;
+
+}
+
+.scrumboard-list ul
+{
+    list-style: none;
+}
+
+.scrumboard-list h3
+{
+    padding-left: 5px;
+    color: white;
+}
+

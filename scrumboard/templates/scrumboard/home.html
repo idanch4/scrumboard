@@ -1,27 +1,37 @@
 {% load staticfiles %}
 
 <html lang="en">
+    <head>
+        <title>Scrumboard</title>
+        <link rel="stylesheet" type="text/css" href="{% static "scrumboard/css/scrumboard.css" %}" />
+    </head>
+
     <body ng-app="scrumboard.demo">
 
         {% verbatim %}
 
         <div ng-controller="ScrumboardController">
-            <div ng-repeat="list in data">
+            <div ng-repeat="list in data" class="scrumboard-list">
                 <h3>{{ list.name }}</h3>
                     <ul>
                         <li ng-repeat="card in list.cards">
-                            <h4> {{ card.title }} </h4>
-                            <p> {{ card.description }} </p>
+                        <scrumboard-card></scrumboard-card>
+                        <!-- Card HTML Here -->
                         </li>
                     </ul>
-                <input type="text"  ng-model="new_title" />
-                <button ng-click="add(list, new_title);">add card</button>
+                <label for="title">title:</label>
+                <input type="text"  ng-model="new_title" id="title"/>
+                <label for="description">description</label>
+                <input type="text" ng-model="new_description" id="description"/>
+
+                <button ng-click="add(list, new_title, new_description);">add card</button>
             </div>
         </div>
 
         {% endverbatim %}
 
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
-        <script src="{% static "scrumboard/scrumboard.js" %}"></script>
+        <script src="{% static "scrumboard/scripts/scrumboard.js" %}"></script>
+        <script src="{% static "scrumboard/scripts/card.directive.js" %}"></script>
     </body>
 </html>
