@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fed784f5-8867-4e3a-ac86-ad9862d47d17" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrumboard/static/scrumboard/css/scrumboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/scrumboard/static/scrumboard/css/scrumboard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrumboard/static/scrumboard/scripts/card.directive.js" beforeDir="false" afterPath="$PROJECT_DIR$/scrumboard/static/scrumboard/scripts/card.directive.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrumboard/static/scrumboard/scrumboardCard.html" beforeDir="false" afterPath="$PROJECT_DIR$/scrumboard/static/scrumboard/scrumboardCard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrumboard/templates/scrumboard/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/scrumboard/templates/scrumboard/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scrumboard/templates/scrumboard/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
+            <state relative-caret-position="83">
               <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
             </state>
           </provider>
@@ -59,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrumboard/static/scrumboard/scrumboardCard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+            <state relative-caret-position="287">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -94,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangular/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="185">
               <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
               <folding>
                 <element signature="e#633#665#0" expanded="true" />
@@ -106,17 +103,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrumboard/static/scrumboard/scripts/scrumboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
+            <state relative-caret-position="-68">
               <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrumboard/static/scrumboard/scripts/card.directive.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="236">
+              <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -164,8 +161,8 @@
         <option value="$PROJECT_DIR$/scrumboard/static/scrumboard/scripts/scrumboard.js" />
         <option value="$PROJECT_DIR$/scrumboard/templates/scrumboard/home.html" />
         <option value="$PROJECT_DIR$/scrumboard/static/scrumboard/css/scrumboard.css" />
-        <option value="$PROJECT_DIR$/scrumboard/static/scrumboard/scrumboardCard.html" />
         <option value="$PROJECT_DIR$/scrumboard/static/scrumboard/scripts/card.directive.js" />
+        <option value="$PROJECT_DIR$/scrumboard/static/scrumboard/scrumboardCard.html" />
       </list>
     </option>
   </component>
@@ -375,7 +372,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29224000" />
+    <option name="totallyTimeSpent" value="30292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -535,7 +532,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/djangular/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="185">
           <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
           <folding>
             <element signature="e#633#665#0" expanded="true" />
@@ -557,31 +554,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrumboard/templates/scrumboard/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrumboard/static/scrumboard/scrumboardCard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrumboard/static/scrumboard/scripts/scrumboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
+        <state relative-caret-position="-68">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrumboard/static/scrumboard/scripts/card.directive.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="236">
+          <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrumboard/static/scrumboard/scrumboardCard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrumboard/templates/scrumboard/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
         </state>
       </provider>
     </entry>
