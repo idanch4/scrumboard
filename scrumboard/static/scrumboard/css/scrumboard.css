@@ -6,25 +6,41 @@ html
 
 .card
 {
-    width: 90%;
-    left:5%;
-    background-color: rgb(220, 220, 230);
+    background-color: rgb(30, 30, 30);
+    padding:3px 6px 3px 10px;
+    margin:5px;
 }
 
-.card .title
-{
-    color: rgb(60, 80, 80);
-}
-
-.card .description
-{
-    color: rgb(20, 30, 20);
+.card .description {
     font-size: 0.8em;
 }
 
-.card .title , .card .description
+.flex
 {
-    padding:3px 6px 3px 10px;
+    display: flex;
+}
+
+.flex input
+{
+    flex-grow: 2;
+}
+
+.flex button
+{
+    flex-basis: auto;
+}
+
+.card-update-form button,
+.card-update-form input,
+.card-update-form textarea
+{
+    margin:2px 0;
+}
+
+.card-update-form textarea
+{
+    width:100%;
+    resize:vertical;
 }
 
 .scrumboard-list
@@ -46,6 +62,5 @@ html
 .scrumboard-list h3
 {
     padding-left: 5px;
-    color: white;
 }
 

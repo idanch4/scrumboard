@@ -1,4 +1,22 @@
 <div class="card">
-    <h4 class="title"> {{ card.title }} </h4>
-    <p class="description"> {{ card.description }} </p>
+
+    <!-- Card  -->
+    <div ng-hide="edit" ng-click="edit=true">
+        <h4 class="title"> {{ card.title }} </h4>
+        <p class="description"> {{ card.description }} </p>
+    </div>
+
+    <!-- Form to update card -->
+    <div class="card-update-form" ng-show="edit">
+        <div class="flex">
+            <label>Title:&nbsp</label>
+            <input type="text" ng-model="card.title" />
+        </div>
+        <div>
+            <textarea ng-model="card.description" placeholder="Enter description here.."></textarea>
+        </div>
+        <div>
+            <button class="close-button" ng-click="edit=false; update();">Close</button>
+        </div>
+    </div>
 </div>
