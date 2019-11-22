@@ -24,5 +24,5 @@ urlpatterns = [
     path('scrumboard/', include('scrumboard.urls')),
     path('auth_api/', include('auth_api.urls')),
     # ensure_csrf_cookie() to set csrf token to the root url.
-    path('', ensure_csrf_cookie(TemplateView.as_view(template_name="scrumboard/home.html"))),
+    path('', ensure_csrf_cookie(TemplateView.as_view(template_name="home.html"))),
 ]

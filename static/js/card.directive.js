@@ -7,7 +7,7 @@
      function CardDirective()
      {
          return {
-             templateUrl: '/static/scrumboard/scrumboardCard.html',
+             templateUrl: '/static/html/scrumboardCard.html',
              restrict: 'E',
              controller: ['$scope', '$http', function($scope, $http){
                  var url = '/scrumboard/cards/' + $scope.card.id + '/';
