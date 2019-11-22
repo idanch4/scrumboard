@@ -11,6 +11,12 @@
         {% verbatim %}
 
         <div ng-controller="ScrumboardController">
+
+            <!-- login & logout -->
+            <button ng-click="login();">Login</button>
+            <a href="/auth_api/logout">Logout</a>
+
+
             <div ng-repeat="list in data" class="scrumboard-list">
                 <h3>{{ list.name }}</h3>
                     <ul>
@@ -33,5 +39,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
         <script src="{% static "scrumboard/scripts/scrumboard.js" %}"></script>
         <script src="{% static "scrumboard/scripts/card.directive.js" %}"></script>
+        <script src="{% static "scrumboard/scripts/scrumboard.config.js" %}"></script>
     </body>
 </html>

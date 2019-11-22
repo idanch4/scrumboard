@@ -24,6 +24,13 @@
             );
         };
 
+        $scope.login = function(){
+            $http.post('/auth_api/login/', {
+                username: 'idanch4',
+                password: '13243214i'
+            })
+        };
+
         $scope.data = [];
         $http.get('/scrumboard/lists/').then(function(response){
             $scope.data = response.data;
