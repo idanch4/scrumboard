@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fed784f5-8867-4e3a-ac86-ad9862d47d17" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/scrumboard/static/scrumboard/scripts/card.directive.js" beforeDir="false" afterPath="$PROJECT_DIR$/scrumboard/static/scrumboard/scripts/card.directive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrumboard/static/scrumboard/scrumboardCard.html" beforeDir="false" afterPath="$PROJECT_DIR$/scrumboard/static/scrumboard/scrumboardCard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_api/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangular/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangular/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangular/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangular/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,61 +42,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangular/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            <state relative-caret-position="207">
+              <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrumboard/templates/scrumboard/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrumboard/static/scrumboard/scrumboardCard.html">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="287">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrumboard/static/scrumboard/css/scrumboard.css">
+        <entry file="file://$PROJECT_DIR$/scrumboard/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrumboard/serializers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/djangular/wsgi.py">
+        <entry file="file://$PROJECT_DIR$/scrumboard/tests.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/djangular/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
+            <state relative-caret-position="252">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#633#665#0" expanded="true" />
               </folding>
@@ -101,19 +84,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrumboard/static/scrumboard/scripts/scrumboard.js">
+        <entry file="file://$PROJECT_DIR$/auth_api/api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="289">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrumboard/static/scrumboard/scripts/card.directive.js">
+        <entry file="file://$PROJECT_DIR$/auth_api/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrumboard/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth_api/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,10 +142,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -150,11 +160,9 @@
         <option value="$PROJECT_DIR$/scrumboard/admin.py" />
         <option value="$PROJECT_DIR$/scrumboard/serializer.py" />
         <option value="$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions" />
-        <option value="$PROJECT_DIR$/djangular/settings.py" />
         <option value="$PROJECT_DIR$/scrumboard/serializers.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/scrumboard/api.py" />
-        <option value="$PROJECT_DIR$/djangular/urls.py" />
         <option value="$PROJECT_DIR$/scrumboard/urls.py" />
         <option value="$PROJECT_DIR$/scrumboard/static/scrumboard/scrumboard.js" />
         <option value="$PROJECT_DIR$/scrumboard/static/scrumboard/card.html" />
@@ -163,6 +171,12 @@
         <option value="$PROJECT_DIR$/scrumboard/static/scrumboard/css/scrumboard.css" />
         <option value="$PROJECT_DIR$/scrumboard/static/scrumboard/scripts/card.directive.js" />
         <option value="$PROJECT_DIR$/scrumboard/static/scrumboard/scrumboardCard.html" />
+        <option value="$PROJECT_DIR$/auth_api/models.py" />
+        <option value="$PROJECT_DIR$/auth_api/serializers.py" />
+        <option value="$PROJECT_DIR$/auth_api/api.py" />
+        <option value="$PROJECT_DIR$/auth_api/urls.py" />
+        <option value="$PROJECT_DIR$/djangular/settings.py" />
+        <option value="$PROJECT_DIR$/djangular/urls.py" />
       </list>
     </option>
   </component>
@@ -194,53 +208,16 @@
             <path>
               <item name="djangular" type="b2602c69:ProjectViewProjectNode" />
               <item name="djangular" type="462c0819:PsiDirectoryNode" />
+              <item name="auth_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="djangular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="djangular" type="462c0819:PsiDirectoryNode" />
               <item name="djangular" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="djangular" type="b2602c69:ProjectViewProjectNode" />
               <item name="djangular" type="462c0819:PsiDirectoryNode" />
-              <item name="scrumboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangular" type="462c0819:PsiDirectoryNode" />
-              <item name="scrumboard" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangular" type="462c0819:PsiDirectoryNode" />
-              <item name="scrumboard" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="scrumboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangular" type="462c0819:PsiDirectoryNode" />
-              <item name="scrumboard" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="scrumboard" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangular" type="462c0819:PsiDirectoryNode" />
-              <item name="scrumboard" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="scrumboard" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangular" type="462c0819:PsiDirectoryNode" />
-              <item name="scrumboard" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangular" type="462c0819:PsiDirectoryNode" />
-              <item name="scrumboard" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="scrumboard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -271,48 +248,7 @@
               <item name="&lt; Python 3.8 (djangular) &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="djangular" type="462c0819:PsiDirectoryNode" />
               <item name="djangular" type="462c0819:PsiDirectoryNode" />
-              <item name="scrumboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.8 (djangular) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="djangular" type="462c0819:PsiDirectoryNode" />
-              <item name="djangular" type="462c0819:PsiDirectoryNode" />
-              <item name="scrumboard" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.8 (djangular) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="djangular" type="462c0819:PsiDirectoryNode" />
-              <item name="djangular" type="462c0819:PsiDirectoryNode" />
-              <item name="scrumboard" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="scrumboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.8 (djangular) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="djangular" type="462c0819:PsiDirectoryNode" />
-              <item name="djangular" type="462c0819:PsiDirectoryNode" />
-              <item name="scrumboard" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="scrumboard" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.8 (djangular) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="djangular" type="462c0819:PsiDirectoryNode" />
-              <item name="djangular" type="462c0819:PsiDirectoryNode" />
-              <item name="scrumboard" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="scrumboard" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="auth_api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -372,13 +308,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30292000" />
+    <option name="totallyTimeSpent" value="33895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27890056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27890056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -389,7 +325,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.34574467" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3173759" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32978722" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -456,16 +392,6 @@
     <entry file="file://$PROJECT_DIR$/scrumboard/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrumboard/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrumboard/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Lib/site-packages/django/views/generic/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2414">
@@ -503,20 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrumboard/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangular/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrumboard/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -529,23 +441,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/djangular/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangular/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
-          <folding>
-            <element signature="e#633#665#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrumboard/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrumboard/static/scrumboard/css/scrumboard.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -571,14 +466,98 @@
     <entry file="file://$PROJECT_DIR$/scrumboard/static/scrumboard/scrumboardCard.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrumboard/templates/scrumboard/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+        <state relative-caret-position="287">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrumboard/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrumboard/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth_api/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth_api/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth_api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrumboard/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrumboard/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth_api/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth_api/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth_api/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangular/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangular/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#633#665#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
