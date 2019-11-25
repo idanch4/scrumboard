@@ -1,12 +1,13 @@
 <!-- login & logout -->
-<form style="color:black;">
+<form style="color:black;" ng-submit="login();">
+    <div class="login-error-msg">{{ login_error }}</div>
     <div>
         <label>Username:</label>
-        <input type="text" />
+        <input type="text" ng-model="user.username" />
     </div>
     <div>
         <label>Password:</label>
-        <input type="password" />
+        <input type="password" ng-model="user.password" />
     </div>
     <div>
         <button type="submit">Submit</button>

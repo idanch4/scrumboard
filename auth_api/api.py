@@ -17,13 +17,16 @@ class LoginView(views.APIView):
             username=request.data.get("username"),
             password=request.data.get("password")
         )
+
         if user is None or not user.is_active:
             return Response({
                 'status': 'Unauthorized',
                 'message': 'Username or password incorrect'
-            })
+            }, status=status.HTTP_401_UNAUTHORIZED)
+
         login(request, user)
-        return Response(UserSerializer(user).data)
+        return Response(UserSerializer(user).data,
+                        status=status.HTTP_200_OK)
 
 
 class LogoutView(views.APIView):
