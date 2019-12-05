@@ -3,8 +3,37 @@
 </div>
 <div ng-repeat="list in data" class="scrumboard-list">
     <h3>{{ list.name }}</h3>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <label>Sort By:</label>
+                </td>
+                <td>
+                    <select ng-model="sortBy">
+                        <option value="title">Title</option>
+                        <option value="story_points">Story Points</option>
+                        <option value="buisness_value">Buisness Value</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="checkbox" ng-model="reverse">
+                    <label>Reverse</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Filter:&nbsp</label>
+                </td>
+                <td>
+                    <input type="text" ng-model="filterBy" />
+                </td>
+            </tr>
+        </table>
+    </div>
+
         <ul>
-            <li ng-repeat="card in list.cards">
+            <li ng-repeat="card in list.cards | filter: filterBy | orderBy: sortBy : reverse">
             <scrumboard-card></scrumboard-card>
             <!-- Card HTML Here -->
             </li>
