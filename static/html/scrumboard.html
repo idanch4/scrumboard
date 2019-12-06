@@ -3,7 +3,10 @@
 </div>
 <div ng-repeat="list in data" class="scrumboard-list">
     <h3>{{ list.name }}</h3>
-    <div>
+    <div class="show-filter-btn">
+        <button ng-click="showFilter = !showFilter;">{{ showFilter ? 'Hide' : 'Show' }} filter</button>
+    </div>
+    <div ng-show="showFilter">
         <table>
             <tr>
                 <td>
@@ -31,17 +34,35 @@
             </tr>
         </table>
     </div>
-
+    <div>
         <ul>
             <li ng-repeat="card in list.cards | filter: filterBy | orderBy: sortBy : reverse">
             <scrumboard-card></scrumboard-card>
             <!-- Card HTML Here -->
             </li>
         </ul>
-    <label>title:</label>
-    <input type="text"  ng-model="new_title" />
-    <label>description</label>
-    <input type="text" ng-model="new_description" />
-
-    <button ng-click="add(list, new_title, new_description);">add card</button>
+    </div>
+    <div class="new-card-form">
+        <div class="new-title">
+            <label>title:</label>
+            <input type="text"  ng-model="new_title" />
+        </div>
+        <div class="new-description">
+            <textarea ng-model="new_description" placeholder="type description.."></textarea>
+        </div>
+        <div>
+            <div class="new-story-points">
+                <label>Points: </label>
+                <input type="text" ng-model="new_story_points" />
+            </div>
+            <div class="new-business-value">
+                <label>Value: </label>
+                <input type="text" ng-model="new_business_value" />
+            </div>
+            <div class="add-card-btn">
+                <button ng-click="add(list, new_title, new_description,
+                     new_story_points, new_business_value);">+</button>
+            </div>
+        </div>
+    </div>
 </div>

@@ -7,12 +7,15 @@
 
     function ScrumboardController($scope, $http, $location)
     {
-        $scope.add = function (list, card_title, card_description) {
+        $scope.add = function (
+            list, card_title, card_description, story_points, business_value) {
 
             var card = {
               list: list.id,
               title: card_title,
-              description: card_description
+              description: card_description,
+              story_points: story_points,
+              business_value: business_value
             };
 
             // end url with '/' in angular!
@@ -37,5 +40,9 @@
         $http.get('/scrumboard/lists/').then(function(response){
             $scope.data = response.data;
         });
+
+        $scope.sortBy = 'story_points';
+        $scope.reverse = true;
+        $scope.showFilter = false;
     }
 })();

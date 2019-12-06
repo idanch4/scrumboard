@@ -3,7 +3,10 @@
     <!-- Card  -->
     <div ng-hide="edit" ng-click="edit=true">
         <h4 class="title"> {{ card.title }} </h4>
-        <p class="description"> {{ card.description }} </p>
+        <p class="description"> {{ card.description }}</p>
+        <p class="description">
+            Points: {{ card.story_points }}, Value: {{ card.business_value }}
+        </p>
     </div>
 
     <!-- Form to update card -->
@@ -14,6 +17,12 @@
         </div>
         <div>
             <textarea ng-model="card.description" placeholder="Enter description here.."></textarea>
+        </div>
+        <div>
+            <label>List:</label>
+            <select ng-options="list as list.name for list in data"
+                    ng-model="desList"></select>
+            <button ng-click="move()">Move</button>
         </div>
         <div>
             <button ng-click="edit=false; update();">Close</button>

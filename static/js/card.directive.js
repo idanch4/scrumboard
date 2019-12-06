@@ -10,24 +10,43 @@
              templateUrl: '/static/html/scrumboardCard.html',
              restrict: 'E',
              controller: ['$scope', '$http', function($scope, $http){
+
+                 $scope.desList = $scope.list;
                  var url = '/scrumboard/cards/' + $scope.card.id + '/';
+
                  $scope.update = function() {
-                     $http.put(url, $scope.card)
-                         .then(function (response) {
-                             $scope.card = response.data;
-                         }, function() {
-                             alert("could not update card");
-                         });
+                     return $http.put(
+                         url,
+                         $scope.card
+                     );
                  };
 
+                 function removeFromList(card, list) {
+                     var cards = list.cards;
+                     cards.splice(
+                         cards.indexOf(card),
+                         1
+                     );
+                 }
+
                  $scope.deleteCard = function() {
-                     url = '/scrumboard/cards/' + $scope.card.id + '/';
                      $http.delete(url).then(function() {
                          // on success we remove the card from the $scope
-                         var cards = $scope.list.cards;
-                         cards.splice(cards.indexOf($scope.card), 1);
+                         removeFromList($scope.card, $scope.list);
                      });
-                 }
+                 };
+
+                 $scope.move = function() {
+                    var card = $scope.card;
+                    card.list = $scope.desList.id;
+                    $scope.update().then(
+                        function() {
+                            removeFromList($scope.card, $scope.list);
+                            $scope.desList.cards.push(card);
+                        }, function (){
+                        alert("Could not change the list");
+                    });
+                 };
              }]
 
          }
