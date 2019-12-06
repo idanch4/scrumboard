@@ -3,16 +3,23 @@
 
     angular.module('scrumboard.demo')
         .controller('LoginController',
-            ['$scope', '$http', '$location', LoginController]);
+            ['$scope', '$http', '$location', 'Login', LoginController]);
 
-    function LoginController($scope, $http, $location){
+    function LoginController($scope, $http, $location, Login){
+
         $scope.login = function () {
-            $http.post('/auth_api/login/', $scope.user)
-                .then(function () {
-                    $location.url('/');
-                }, function () {
-                    $scope.login_error = "Invalid username/password.";
-                });
+            if (!Login.isLoggedIn()) {
+                Login.login($scope.user)
+                    .then(function () {
+                        $location.url('/');
+                    }, function () {
+                        $scope.login_error = "Invalid username/password.";
+                    });
+            }
+        };
+
+        if (Login.isLoggedIn()){
+            $location.url('/');
         }
     }
 }) ();
